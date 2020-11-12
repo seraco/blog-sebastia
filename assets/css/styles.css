@@ -1,0 +1,87 @@
+:root {
+  --primary-color: #ff4500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  max-width: 680px;
+  margin: auto;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 900;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+h4 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+code {
+  font-size: 0.8rem;
+}
+
+footer {
+  margin: 2rem;
+}
+
+.social {
+  background-color: #282c34;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  font-family: initial;
+}
+
+.logo {
+  width: 32px;
+  margin: 12px 15px;
+}
+
+.avatar {
+  width: 85px;
+  height: 85px;
+  border-radius: 10%;
+  background-color: var(--primary-color);
+  margin-right: 1rem;
+}

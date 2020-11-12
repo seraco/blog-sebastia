@@ -1,0 +1,19 @@
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-target-blank
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+target-blank:
+  css_class: ext-link
