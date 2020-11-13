@@ -17,3 +17,5 @@ plugins:
 
 target-blank:
   css_class: ext-link
+
+baseurl: /blog-sebastia
