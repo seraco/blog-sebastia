@@ -54,6 +54,10 @@ a {
   text-decoration: none;
 }
 
+pre {
+  overflow-x: auto;
+}
+
 code {
   font-size: 0.8rem;
 }
@@ -75,7 +79,7 @@ footer {
 
 .logo {
   width: 32px;
-  margin: 12px 15px;
+  margin: 8px 15px;
 }
 
 .avatar {
@@ -84,4 +88,12 @@ footer {
   border-radius: 10%;
   background-color: var(--primary-color);
   margin-right: 1rem;
+}
+
+@media only screen and (max-width:641px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+  }
 }
