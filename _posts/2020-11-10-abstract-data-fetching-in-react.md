@@ -5,7 +5,7 @@ time_to_read: 3 min
 
 When I work with large code bases, I often find that they lack a clear and unified strategy for data fetching. A pattern I have noticed when using [Hooks](https://reactjs.org/docs/hooks-intro.html){:class="ext-link"} is the following code snippet repeated every time data need to be loaded:
 
-```
+```javascript
 function useData() {
   const [data, setData] = useState({
     isLoading: false,
@@ -48,7 +48,7 @@ Data fetching is usually triggered through some sort of action, such as clicking
 
 So, it would make sense to have a Hook that would abstract all of this functionality. One way this can be achieved is with the following:
 
-```
+```javascript
 const [{ loading, data, hasError }, fetchData] = useRequest(request);
 ```
 
@@ -56,7 +56,7 @@ The amount of typing involved is greatly reduced and now `useRequest` clearly re
 
 One way `useRequest` could be implemented is by taking the same structure as in `useData` but now passing `request` as an argument of the Hook:
 
-```
+```javascript
 function useRequest(request) {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState(undefined);
