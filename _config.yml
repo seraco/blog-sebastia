@@ -10,10 +10,6 @@ defaults:
       layout: "default"
 
 plugins:
-  - jekyll-target-blank
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-target-blank:
-  css_class: ext-link
