@@ -1,5 +1,8 @@
 :root {
   --primary-color: crimson;
+  --large-border-radius: 10px;
+  --small-border-radius: 5px;
+  --dark-background-color: #282c34;
 }
 
 body {
@@ -32,17 +35,17 @@ h1 {
   font-family: 'Gothic A1', sans-serif;
   font-weight: 900;
   margin-top: 2rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: .75rem;
 }
 
 h2 {
   margin-top: 2rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: .25rem;
 }
 
 h4 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.5rem;
+  margin-top: .25rem;
+  margin-bottom: .5rem;
 }
 
 p {
@@ -54,12 +57,24 @@ a {
   text-decoration: none;
 }
 
-pre {
-  overflow-x: auto;
+.highlight {
+  border-radius: var(--large-border-radius);
 }
 
-code {
-  font-size: 0.8rem;
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+pre > code {
+  font-size: .8rem;
+}
+
+:not(pre) > code {
+  font-size: 1.1rem;
+  background-color: #1b1f230d;
+  padding: .2em .4em;
+  border-radius: var(--small-border-radius);
 }
 
 footer {
@@ -67,7 +82,7 @@ footer {
 }
 
 .social {
-  background-color: #282c34;
+  background-color: var(--dark-background-color);
   position: absolute;
   top: 0;
   right: 0;
@@ -75,7 +90,7 @@ footer {
   display: flex;
   flex-direction: column;
   font-family: initial;
-  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: var(--large-border-radius);
 }
 
 .logo {
@@ -86,7 +101,7 @@ footer {
 .avatar {
   width: 85px;
   height: 85px;
-  border-radius: 10px;
+  border-radius: var(--large-border-radius);
   background-color: var(--primary-color);
   margin-right: 1rem;
 }
