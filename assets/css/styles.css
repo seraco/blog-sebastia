@@ -1,7 +1,7 @@
 :root {
   --primary-color: crimson;
-  --large-border-radius: 10px;
-  --small-border-radius: 5px;
+  --large-border-radius: 8px;
+  --small-border-radius: 4px;
   --dark-background-color: #282c34;
 }
 
@@ -99,10 +99,9 @@ footer {
 }
 
 .avatar {
-  width: 85px;
-  height: 85px;
+  width: 140px;
+  height: 140px;
   border-radius: var(--large-border-radius);
-  background-color: var(--primary-color);
   margin-right: 1rem;
 }
 
