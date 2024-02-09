@@ -8,10 +8,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Gothic A1', sans-serif;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 main {
@@ -32,8 +29,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: 'Gothic A1', sans-serif;
-  font-weight: 900;
   margin-top: 2rem;
   margin-bottom: .75rem;
 }
@@ -89,7 +84,6 @@ footer {
   padding: 5px;
   display: flex;
   flex-direction: column;
-  font-family: initial;
   border-bottom-left-radius: var(--large-border-radius);
 }
 
