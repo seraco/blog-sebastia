@@ -1,6 +1,6 @@
 # Personal blog
 
-My personal blog
+My personal blog.
 
 ## How to run it?
 
