@@ -3,25 +3,25 @@ excerpt: My code review process.
 time_to_read: 2 mins
 ---
 
-### 1. Understand the scope (approx. 30s)
+### 1. Understanding the scope (approx. 30s)
 
 I begin by quickly skimming through the description to understand the broader context and scope.
 
-### 2. Navigate through file changes
+### 2. Navigating through file changes
 
 I have some tricks to reduce the visual clutter of file changes:
 - Collapse all changed files to gain a bird's-eye view (shortcut: alt + left click on file caret).
 - Use the file tree on the left sidebar to aid navigation.
 
-### 3. Prioritise simple changes
+### 3. Prioritising simple changes
 
 To manage cognitive load, I prioritise simple changes that can be addressed swiftly (typically less than a minute per change). This enables me to mark most files as reviewed, focusing my full attention on more complex modifications.
 
-### 4. Continue with unit tests
+### 4. Continuing with unit tests
 
 For complex modifications, particularly those impacting critical logic, I find it useful to start reviewing unit tests. Tests can usually be quite descriptive and allow me to better understand the intended functionality.
 
-### 5. Focus on detailed review
+### 5. Focusing on detailed review
 
 I leave the changes that need my best attention to details for the end.
 
