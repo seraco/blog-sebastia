@@ -1,6 +1,6 @@
 ---
 excerpt: My code review process.
-time_to_read: 4 mins
+time_to_read: 2 mins
 ---
 
 ### 1. Understand the scope (approx. 30s)
