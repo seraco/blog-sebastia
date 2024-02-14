@@ -3,10 +3,6 @@ excerpt: My code review process.
 time_to_read: 4 mins
 ---
 
-### Quick Overview
-
-I like the approach to be thorough and efficient. Here's a breakdown:
-
 ### 1. Understand the scope (approx. 30s)
 
 I begin by quickly skimming through the description to understand the broader context and scope.
