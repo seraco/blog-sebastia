@@ -23,7 +23,7 @@ For complex modifications, particularly those impacting critical logic, I find i
 
 ### 5. Focusing on detailed review
 
-I leave the changes that need my best attention to details for the end.
+I leave the changes that need my best attention to detail for the end.
 
 ### Active engagement: leaving comments
 
@@ -31,6 +31,6 @@ Throughout the review, when I find anything I don't understand I leave a comment
 
 ### Completion and iteration
 
-I mark files as reviewed only when I'm fully satisfied with the changes. Once I marked all files, the review is complete.
+I mark files as reviewed only when I'm fully satisfied with the changes. Once I've marked all files, the review is complete.
 
 As the author introduces new changes, I focus on reviewing only the modified files or individual commits to optimise efficiency.
