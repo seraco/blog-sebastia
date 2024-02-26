@@ -1,5 +1,5 @@
 ---
-excerpt: How to simplify requesting data.
+excerpt: How to simplify requesting data
 time_to_read: 3 min
 ---
 

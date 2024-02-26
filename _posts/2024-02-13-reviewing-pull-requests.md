@@ -1,5 +1,5 @@
 ---
-excerpt: My code review process.
+excerpt: My code review process
 time_to_read: 2 mins
 ---
 
