@@ -70,7 +70,7 @@ pre > code {
 }
 
 :not(pre) > code {
-  font-size: 1.1rem;
+  font-size: 1rem;
   background-color: #1b1f230d;
   padding: .2em .4em;
   border-radius: var(--small-border-radius);
